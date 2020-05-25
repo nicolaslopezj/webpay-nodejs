@@ -607,15 +607,15 @@ path-to-regexp@0.1.7:
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
   integrity sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
 
-pem@^1.9.4:
-  version "1.14.3"
-  resolved "https://registry.yarnpkg.com/pem/-/pem-1.14.3.tgz#347e5a5c194a5f7612b88083e45042fcc4fb4901"
-  integrity sha512-Q+AMVMD3fzeVvZs5PHeI+pVt0hgZY2fjhkliBW43qyONLgCXPVk1ryim43F9eupHlNGLJNT5T/NNrzhUdiC5Zg==
+pem@^1.14.4:
+  version "1.14.4"
+  resolved "https://registry.yarnpkg.com/pem/-/pem-1.14.4.tgz#a68c70c6e751ccc5b3b5bcd7af78b0aec1177ff9"
+  integrity sha512-v8lH3NpirgiEmbOqhx0vwQTxwi0ExsiWBGYh0jYNq7K6mQuO4gI6UEFlr6fLAdv9TPXRt6GqiwE37puQdIDS8g==
   dependencies:
     es6-promisify "^6.0.0"
     md5 "^2.2.1"
     os-tmpdir "^1.0.1"
-    which "^1.3.1"
+    which "^2.0.2"
 
 performance-now@^2.1.0:
   version "2.1.0"
@@ -759,10 +759,10 @@ setprototypeof@1.1.1:
   resolved "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.1.1.tgz#7e95acb24aa92f5885e0abef5ba131330d4ae683"
   integrity sha512-JvdAWfbXeIGaZ9cILp38HntZSFSo3mWg6xGcJJsd+d4aRMOqauag1C63dJfDw7OaMYwEbHMOxEZ1lqVRYP2OAw==
 
-soap@^0.30.0:
-  version "0.30.0"
-  resolved "https://registry.yarnpkg.com/soap/-/soap-0.30.0.tgz#f5fb6fd5ca8073d41c973661772acc697e8c8921"
-  integrity sha512-nPDbX8Y/EJNyMXog50BRONUa/S0oaDYvFO3IAegh7IoxOwGpWr6xoyUx+ZgAY9tvstZDnOHRPdfvxDhAVCVyAQ==
+soap@^0.31.0:
+  version "0.31.0"
+  resolved "https://registry.yarnpkg.com/soap/-/soap-0.31.0.tgz#2854d816ba2421c2f519ab22dcd1ea75587e7509"
+  integrity sha512-xp5l+qtY9DT4aK0403yu6sJ3UpaLLg0dzHgT4FCZREN99T6TeHRzdPVhdHW+sRlMSHJ+N8NOeQF6gJqZh0KoKA==
   dependencies:
     "@types/request" "^2.48.1"
     bluebird "^3.5.0"
@@ -900,20 +900,12 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-which@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/which/-/which-1.3.1.tgz#a45043d54f5805316da8d62f9f50918d3da70b0a"
-  integrity sha512-HxJdYWq1MTIQbJ3nw0cqssHoTNU267KlrDuGZ1WYlxDStUtKUhOaJmh112/TZmHxxUfuJqPXSOm7tDyas0OSIQ==
+which@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/which/-/which-2.0.2.tgz#7c6a8dd0a636a0327e10b59c9286eee93f3f51b1"
+  integrity sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==
   dependencies:
     isexe "^2.0.0"
-
-xml-crypto@^0.8.5:
-  version "0.8.5"
-  resolved "https://registry.yarnpkg.com/xml-crypto/-/xml-crypto-0.8.5.tgz#2bbcfb3eb33f3a82a218b822bf672b6b1c20e538"
-  integrity sha1-K7z7PrM/OoKiGLgiv2craxwg5Tg=
-  dependencies:
-    xmldom "=0.1.19"
-    xpath.js ">=0.0.3"
 
 xml-crypto@^1.4.0:
   version "1.4.0"
@@ -923,25 +915,23 @@ xml-crypto@^1.4.0:
     xmldom "0.1.27"
     xpath "0.0.27"
 
+xml-crypto@^1.5.3:
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/xml-crypto/-/xml-crypto-1.5.3.tgz#a8f500b90f0dfaf0efa3331c345ecb0fff993c34"
+  integrity sha512-uHkmpUtX15xExe5iimPmakAZN+6CqIvjmaJTy4FwqGzaTjrKRBNeqMh8zGEzVNgW0dk6beFYpyQSgqV/J6C5xA==
+  dependencies:
+    xmldom "0.1.27"
+    xpath "0.0.27"
+
 xmldom@0.1.27:
   version "0.1.27"
   resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.1.27.tgz#d501f97b3bdb403af8ef9ecc20573187aadac0e9"
   integrity sha1-1QH5ezvbQDr4757MIFcxh6rawOk=
 
-xmldom@=0.1.19:
-  version "0.1.19"
-  resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.1.19.tgz#631fc07776efd84118bf25171b37ed4d075a0abc"
-  integrity sha1-Yx/Ad3bv2EEYvyUXGzftTQdaCrw=
-
-xmldom@^0.1.27:
-  version "0.1.31"
-  resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.1.31.tgz#b76c9a1bd9f0a9737e5a72dc37231cf38375e2ff"
-  integrity sha512-yS2uJflVQs6n+CyjHoaBmVSqIDevTAWrzMmjG1Gc7h1qQ7uVozNhEPJAwZXWyGQ/Gafo3fCwrcaokezLPupVyQ==
-
-xpath.js@>=0.0.3:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/xpath.js/-/xpath.js-1.1.0.tgz#3816a44ed4bb352091083d002a383dd5104a5ff1"
-  integrity sha512-jg+qkfS4K8E7965sqaUl8mRngXiKb3WZGfONgE18pr03FUQiuSV6G+Ej4tS55B+rIQSFEIw3phdVAQ4pPqNWfQ==
+xmldom@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.3.0.tgz#e625457f4300b5df9c2e1ecb776147ece47f3e5a"
+  integrity sha512-z9s6k3wxE+aZHgXYxSTpGDo7BYOUfJsIRyoZiX6HTjwpwfS2wpQBQKa2fD+ShLyPkqDYo5ud7KitmLZ2Cd6r0g==
 
 xpath@0.0.27:
   version "0.0.27"
